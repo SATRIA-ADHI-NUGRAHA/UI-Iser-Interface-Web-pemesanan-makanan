@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <title>History</title>
+  </head>
+  <body>
+    <div class="container-fluit">
+      <div class="row">
+        <div class="col-md-12" style="padding-right: 0px; padding-left: 0px;">
+          <div class="navbar2 navbar navbar-default">
+            <a href="file:///E:/arkademy/coding/week3/UI-Web-pemesanan-makanan/index1.html"><img src="assets/img/menu1.png" alt="" /></a>
+            <p class="history"><b>History</b></p>
+          </div>
+          <div class="row">
+            <div
+              class="col-md-1"
+              style="padding-right: 0px; padding-left: 0px;"
+            >
+              <div class="menu2">
+                <a href="file:///E:/arkademy/coding/week3/UI-Web-pemesanan-makanan/index4.html"><img src="assets/img/fork.png" alt="" /></a>
+                <a href="file:///E:/arkademy/coding/week3/UI-Web-pemesanan-makanan/index5.html"><img src="assets/img/clipboard.png" alt="" /></a>
+                <a href="file:///E:/arkademy/coding/week3/UI-Web-pemesanan-makanan/index4.html"><img src="assets/img/add.png" alt="" /></a>
+              </div>
+            </div>
+            <div
+              class="col-md-11"
+              style="padding-right: 0px; padding-left: 0px;"
+            >
+              <div class="content">
+                <div class="row">
+                  <div class="income col-md-12">
+                    <div class="row">
+                      <div class="text-in col-md-4">
+                        <img src="assets/img/orange.png" alt="" />
+                        <p class="text1"><b>Today’s Income</b></p>
+                        <p class="text2"><b>Rp. 1.000.000</b></p>
+                        <p class="text3"><b>+2% Yesterday</b></p>
+                      </div>
+                      <div class="text-in col-md-4">
+                        <img src="assets/img/biru.png" alt="" />
+                        <p class="text1"><b>Orders</b></p>
+                        <p class="text2"><b>3.270</b></p>
+                        <p class="text3"><b>+5% Last Week</b></p>
+                      </div>
+                      <div class="text-in col-md-4">
+                        <img src="assets/img/ungu.png" alt="" />
+                        <p class="text1"><b>This Year’s Income</b></p>
+                        <p class="text2"><b>Rp. 100.000.000.000</b></p>
+                        <p class="text3"><b>+10% Last Year</b></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grafik col-md-11">
+                    <div class="d-flex justify-content-between mb-3">
+                      <div class="p-2" style="font-size: 25px;"><b>Revenue</b></div>
+                      <div class="p-2">
+                        <div class="dropdown">
+                          <button
+                            class="btn btn-secondary dropdown-toggle"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            Month
+                          </button>
+                          <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a class="dropdown-item" href="#">This Month</a>
+                            <a class="dropdown-item" href="#">Last Month</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <canvas
+                      id="speedChart"
+                      style="display: block; width: 1405px; height: 634px;"
+                      width="1194"
+                      height="596"
+                    ></canvas>
+                    <script>
+                      var speedCanvas = document.getElementById("speedChart");
+
+                      Chart.defaults.global.defaultFontSize = 18;
+
+                      var dataFirst = {
+                        label: "This Month",
+                        data: [
+                          0,
+                          20,
+                          12,
+                          28,
+                          40,
+                          13,
+                          47,
+                          40,
+                          33,
+                          37,
+                          25,
+                          48,
+                          34,
+                          39,
+                          30,
+                          23,
+                          39,
+                          30,
+                        ],
+                        fill: false,
+                        borderColor: "#00F1FF",
+                      };
+
+                      var dataSecond = {
+                        label: "Last Month",
+                        data: [
+                          10,
+                          28,
+                          4,
+                          38,
+                          23,
+                          39,
+                          12,
+                          29,
+                          22,
+                          48,
+                          12,
+                          28,
+                          11,
+                          40,
+                        ],
+                        fill: false,
+                        borderColor: "#FFB8C6",
+                      };
+
+                      var speedData = {
+                        labels: [
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                          "",
+                        ],
+                        datasets: [dataFirst, dataSecond],
+                      };
+
+                      var chartOptions = {
+                        legend: {
+                          display: true,
+                          position: "bottom",
+                          labels: {
+                            boxWidth: 20,
+                            fontColor: "black",
+                          },
+                        },
+                      };
+                      var lineChart = new Chart(speedCanvas, {
+                        type: "line",
+                        data: speedData,
+                        options: chartOptions,
+                      });
+                    </script>
+                  </div>
+                  <div class="table-bg col-md-11">
+                    <div class="d-flex justify-content-between mb-3">
+                        <div class="p-2" style="font-size: 25px;"><b>Recent Order</b></div>
+                        <div class="p-2">
+                          <div class="dropdown">
+                            <button
+                              class="btn btn-secondary dropdown-toggle"
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                            >
+                              Today
+                            </button>
+                            <div
+                              class="dropdown-menu"
+                              aria-labelledby="dropdownMenuButton"
+                            >
+                              <a class="dropdown-item" href="#">Week</a>
+                              <a class="dropdown-item" href="#">Month</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">INVOICE</th>
+                          <th scope="col">CASHIER</th>
+                          <th scope="col">DATE</th>
+                          <th scope="col">ORDERS</th>
+                          <th scope="col">AMOUNT</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>#10928</td>
+                          <td>Cashier 1</td>
+                          <td>6 Oktober 2020</td>
+                          <td>Ice Tea, Salad, Salmon</td>
+                          <td>Rp. 120.000</td>
+                        </tr>
+                        <tr>
+                          <td>#10929</td>
+                          <td>Cashier 1</td>
+                          <td>6 Oktober 2020</td>
+                          <td>Salad, Salmon</td>
+                          <td>Rp. 100.000</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>

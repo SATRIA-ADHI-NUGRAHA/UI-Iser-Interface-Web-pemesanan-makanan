@@ -1,0 +1,330 @@
+@font-face {
+    font-family: "AirbnbCerealMedium";
+    src: url("../font/AirbnbCerealMedium.ttf");
+  }
+  body {
+    font-family: "AirbnbCerealMedium";
+    text-align: center;
+  }
+  .navbar {
+    padding-right: 50px;
+    margin-left: 15px;
+    margin-right: -15px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  .navbar p {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .navbar img {
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+  .menu {
+    padding-left: 7px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .menu img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+  }
+  .input1,
+  .input2,
+  .input3,
+  .input4 {
+    background: #ffffff;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  .input1 {
+    margin-left: 10px;
+  }
+  .input2 {
+    margin-left: 7px;
+  }
+  .input3 {
+    margin-left: 17px;
+  }
+  .input4 {
+    margin-left: 10px;
+  }
+  .btn1 {
+    background: #f24f8a;
+    width: 100px;
+    border-radius: 10px;
+  }
+  .btn2 {
+    background: #57cad5;
+    width: 100px;
+    border-radius: 10px;
+  }
+  .content {
+    background: rgba(190, 195, 202, 0.3);
+    padding-top: 20px;
+    margin-bottom: 40px;
+    height: 100%;
+  }
+  .content p {
+    font-size: 23px;
+    line-height: 33px;
+    text-align: left;
+    padding-left: 18px;
+    padding-right: 40px;
+    line-height: 15px;
+  }
+  .content img {
+    width: 230px;
+    height: 230px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .Cart {
+    margin-right: -15px;
+    margin-left: 15px;
+    font-size: 25px;
+    line-height: 33px;
+    padding-top: 15px;
+    line-height: 66px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  .Cart img {
+    padding-bottom: 5px;
+  }
+  .your-cart img {
+    padding-top: 60px;
+  }
+  .cart-text-1 {
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+  }
+  .cart-text-2 {
+    font-size: 20px;
+    line-height: 26px;
+    color: #cecece;
+  }
+  .cart-list {
+    margin-top: 70px;
+    margin-left: 70px;
+  }
+  .cart-list img {
+    width: 120px;
+    height: 120px;
+  }
+  .name-list {
+    padding-left: 20px;
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .price {
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 60px;
+    padding-left: 40px;
+  }
+  .Checkout {
+    margin-top: 170px;
+  }
+  .total {
+    font-size: 24px;
+    line-height: 31px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .ppn {
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+  
+    padding-left: 60px;
+  }
+  .check {
+    margin-left: 150px;
+    width: 401px;
+    height: 61px;
+    left: 1009px;
+    top: 872px;
+  
+    background: #57cad5;
+  }
+  .check .btn-checkout {
+    width: 401px;
+    height: 61px;
+    font-size: 25px;
+    background: #57cad5;
+  }
+  .modal-header .p-2 .check-out {
+    font-size: 25px;
+    text-align: left;
+  
+    margin-bottom: 0px;
+  }
+  .modal-header .p-2 .cashier {
+    font-size: 15px;
+  }
+  .modal-header .receipt {
+    text-align: right;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .name-check {
+    padding-top: 13px;
+    font-size: 25px;
+    line-height: 33px;
+  
+    color: #ffffff;
+  }
+  .check {
+    margin-left: 170px;
+  }
+  .cancel {
+    margin-top: 30px;
+    margin-left: 170px;
+    width: 401px;
+    height: 61px;
+    left: 1009px;
+    top: 872px;
+  
+    background: #f24f8a;
+    margin-bottom: 30px;
+  }
+  .name-cancel {
+    padding-top: 13px;
+    font-size: 25px;
+    line-height: 33px;
+  
+    color: #ffffff;
+  }
+  .cart-lis .d-flex .p-2 .plus-minus {
+    width: 65px;
+    height: 65px;
+    background: rgba(130, 222, 58, 0.2);
+  }
+  .score {
+    color: #82de3a;
+    text-align: center;
+    font-size: 30px;
+    width: 65px;
+    height: 65px;
+    background-color: white;
+  }
+  .modal-footer .d-flex {
+    width: 600px;
+  }
+  .modal-footer .d-flex .print {
+    background: #f24f8a;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .modal-footer .d-flex .sendmail {
+    background: #57cad5;
+    font-size: 20px;
+  }
+  @media (max-width: 550px) {
+    .content p {
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+  .history{
+    padding-right: 600px;
+  }
+  .income {
+    padding-left: 25px;
+    padding-right: 35px;
+  }
+  .text-in img {
+    position: relative;
+    z-index: 1;
+    width: 370px;
+    height: 250px;
+  }
+  .text-in .text1 {
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    font-size: 15px;
+    padding-left: 70px;
+  }
+  .text-in .text2 {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    font-size: 25px;
+    padding-left: 70px;
+  }
+  .text-in .text3 {
+    position: absolute;
+    z-index: 1;
+    top: 135px;
+    font-size: 15px;
+    padding-left: 70px;
+  }
+  .grafik {
+    top: 30px;
+    background: #ffffff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+  }
+  .grafik .revenue{
+    padding-left: 10px;
+  }
+  .table-bg{
+    padding-top: 20px;
+    top: 50px;
+    background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 40px;
+  }
+  .table-bg .recent-order{
+    padding-left: 10px;
+  }
+  @media (max-width: 750px) {
+    .history{
+      padding-right: 200px;
+    }
+    .income {
+      padding-left: 85px;
+      padding-right: 35px;
+    }
+    .text-in .text1 {
+      position: absolute;
+      z-index: 1;
+      top: 70px;
+      font-size: 15px;
+      padding-left: 130px;
+    }
+    .text-in .text2 {
+      position: absolute;
+      z-index: 1;
+      top: 100px;
+      font-size: 25px;
+      padding-left: 130px;
+    }
+    .text-in .text3 {
+      position: absolute;
+      z-index: 1;
+      top: 135px;
+      font-size: 15px;
+      padding-left: 130px;
+    }
+  }

@@ -1,0 +1,377 @@
+@font-face {
+  font-family: "AirbnbCerealMedium";
+  src: url("../font/AirbnbCerealMedium.ttf");
+}
+body {
+  font-family: "AirbnbCerealMedium";
+  text-align: center;
+}
+.navbar {
+  padding-right: 50px;
+  margin-left: 10px;
+  margin-right: -15px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.navbar p {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar img {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.navbar2 {
+  padding-right: 50px;
+  margin-left: 15px;
+  margin-right: -15px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.navbar2 p {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 400px;
+}
+.navbar2 img {
+  padding-left: 35px;
+  padding-right: 30px;
+}
+.menu {
+  padding-left: 18px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.menu img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+.menu2 {
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.menu2 img{
+  width: 75px;
+}
+.input1,
+.input2,
+.input3,
+.input4 {
+  background: #ffffff;
+  border: 1px solid #cecece;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.btn {
+  font-size: 20px;
+}
+.input1 {
+  margin-left: 10px;
+}
+.input2 {
+  margin-left: 7px;
+}
+.input3 {
+  margin-left: 17px;
+}
+.input4 {
+  margin-left: 10px;
+}
+.btn1 {
+  background: #f24f8a;
+  width: 100px;
+  border-radius: 10px;
+}
+.btn2 {
+  background: #57cad5;
+  width: 100px;
+  border-radius: 10px;
+}
+.content {
+  background: rgba(190, 195, 202, 0.3);
+  padding-top: 20px;
+  margin-bottom: 40px;
+  height: 100%;
+}
+.content p {
+  font-size: 25px;
+  line-height: 33px;
+  text-align: left;
+  padding-left: 53px;
+  padding-right: 40px;
+  line-height: 30px;
+}
+.content img {
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+.Cart {
+  margin-right: -15px;
+  margin-left: 15px;
+  font-size: 25px;
+  line-height: 33px;
+  padding-top: 15px;
+  line-height: 66px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.Cart img {
+  padding-bottom: 5px;
+}
+.your-cart img {
+  padding-top: 60px;
+}
+.cart-text-1 {
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+}
+.cart-text-2 {
+  font-size: 20px;
+  line-height: 26px;
+  color: #cecece;
+}
+.cart-list {
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.cart-list img {
+  width: 120px;
+  height: 120px;
+}
+.name-list {
+  padding-left: 0px;
+  font-size: 25px;
+  line-height: 33px;
+  text-align: left;
+}
+.plus-minus {
+  margin-left: 0px;
+  width: 175px;
+  height: 55px;
+  background: rgba(130, 222, 58, 0.2);
+}
+.plus-minus .minus {
+  font-size: 30px;
+  color: #82de3a;
+  border: 1px solid #82de3a;
+  box-sizing: border-box;
+}
+.plus-minus .number {
+  font-size: 30px;
+  color: #82de3a;
+  background-color: #ffffff;
+  border: 1px solid #82de3a;
+  box-sizing: border-box;
+}
+.plus-minus .plus {
+  font-size: 30px;
+  color: #82de3a;
+  border: 1px solid #82de3a;
+  box-sizing: border-box;
+}
+.price {
+  font-size: 20px;
+  line-height: 26px;
+  padding-top: 60px;
+  padding-left: 40px;
+}
+.Checkout {
+  margin-top: 170px;
+}
+.total {
+  font-size: 24px;
+  line-height: 31px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.ppn {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+
+  padding-left: 60px;
+}
+.check {
+  margin-left: 150px;
+  width: 401px;
+  height: 61px;
+  left: 1009px;
+  top: 872px;
+
+  background: #57cad5;
+}
+.check .btn-checkout {
+  width: 401px;
+  height: 61px;
+  font-size: 25px;
+  background: #57cad5;
+}
+.modal-header .p-2 .check-out {
+  font-size: 25px;
+  text-align: left;
+
+  margin-bottom: 0px;
+}
+.modal-header .p-2 .cashier {
+  font-size: 15px;
+}
+.modal-header .receipt {
+  text-align: right;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.name-check {
+  padding-top: 13px;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+.check {
+  margin-left: 170px;
+}
+.cancel {
+  margin-top: 30px;
+  margin-left: 170px;
+  width: 401px;
+  height: 61px;
+  left: 1009px;
+  top: 872px;
+
+  background: #f24f8a;
+  margin-bottom: 30px;
+}
+.name-cancel {
+  padding-top: 13px;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+.score {
+  color: #82de3a;
+  text-align: center;
+  font-size: 30px;
+  width: 65px;
+  height: 65px;
+  background-color: white;
+}
+.modal-footer .d-flex {
+  width: 600px;
+}
+.modal-footer .d-flex .print {
+  background: #f24f8a;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.modal-footer .d-flex .sendmail {
+  background: #57cad5;
+  font-size: 20px;
+}
+.history {
+  padding-right: 600px;
+}
+.income {
+  padding-left: 55px;
+  padding-right: 57px;
+}
+.text-in img {
+  position: relative;
+  z-index: 1;
+  width: 570px;
+  height: 350px;
+}
+.text-in .text1 {
+  position: absolute;
+  z-index: 1;
+  top: 110px;
+  font-size: 25px;
+  padding-left: 80px;
+}
+.text-in .text2 {
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  font-size: 35px;
+  padding-left: 80px;
+}
+.text-in .text3 {
+  position: absolute;
+  z-index: 1;
+  top: 195px;
+  font-size: 25px;
+  padding-left: 80px;
+}
+.grafik {
+  top: 30px;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-left: 70px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: left;
+}
+.table-bg {
+  padding-top: 20px;
+  top: 50px;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.table-bg .recent-order {
+  padding-left: 10px;
+}
+@media (max-width: 790px) {
+  .content p {
+    text-align: center;
+    line-height: 30px;
+  }
+  .history {
+    padding-right: 200px;
+  }
+  .income {
+    padding-left: 85px;
+    padding-right: 35px;
+  }
+  .text-in .text1 {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    font-size: 25px;
+    padding-left: 130px;
+  }
+  .text-in .text2 {
+    position: absolute;
+    z-index: 1;
+    top: 140px;
+    font-size: 35px;
+    padding-left: 130px;
+  }
+  .text-in .text3 {
+    position: absolute;
+    z-index: 1;
+    top: 185px;
+    font-size: 25px;
+    padding-left: 130px;
+  }
+  .navbar2 p {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+  }
+}
