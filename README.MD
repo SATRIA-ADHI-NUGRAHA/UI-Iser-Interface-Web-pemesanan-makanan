@@ -22,3 +22,5 @@ CSS uses simple English based on syntax which is equipped with a set of rules th
 ## BOOTSTRAP
 [Bootstrap](https://qwords.com/blog/apa-itu-bootstrap/#:~:text=dan%20Cara%20Menggunakannya-,Pengertian%20Bootstrap,website%20developer%20atau%20pengembang%20website.) is a CSS framework library that has been made specifically for developing the front end of a website. Bootstrap is also known as a CSS, HTML, Javascript framework which is so popular among website developers or website developers.
 With this bootstrap, of course, the website page can adjust to the size of the monitor device. Good if accessed via cellphone, tablet or desktop. Initially, the bootstrap itself was called Twitter Blueprint.
+
+[PREVIEW-NETLIFY](https://condescending-engelbart-40e581.netlify.app/)
