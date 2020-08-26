@@ -24,3 +24,5 @@ CSS uses simple English based on syntax which is equipped with a set of rules th
 With this bootstrap, of course, the website page can adjust to the size of the monitor device. Good if accessed via cellphone, tablet or desktop. Initially, the bootstrap itself was called Twitter Blueprint.
 
 [PREVIEW-NETLIFY](https://condescending-engelbart-40e581.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0c5526ec-3af5-407b-ae4c-6345599082f8/deploy-status)](https://app.netlify.com/sites/condescending-engelbart-40e581/deploys)
